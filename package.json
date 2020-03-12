@@ -1,0 +1,25 @@
+{
+    "name": "odin",
+    "displayName": "Odin",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "odin",
+            "aliases": ["Odin", "odin"],
+            "extensions": [".odin"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "odin",
+            "scopeName": "source.odin",
+            "path": "./syntaxes/odin.tmLanguage.json"
+        }]
+    }
+}
