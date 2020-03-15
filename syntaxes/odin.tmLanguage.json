@@ -58,7 +58,7 @@
       "patterns": [
         {
           "match": "\\b(import|foreign|package)\\b",
-          "name": "keyword.control.odin"
+          "name": "keyword.other.odin"
         },
         {
           "match": "\\b(if|else|when|for|in|notin|not_in|defer|switch|return|const|do|where)\\b",
@@ -70,7 +70,7 @@
         },
         {
           "match": "\\b(using|inline|no_inline)\\b",
-          "name": "keyword.control.odin"
+          "name": "keyword.other.odin"
         },
         {
           "match": "\\b(asm|yield|await)\\b",
@@ -78,11 +78,11 @@
         },
         {
           "match": "\\b(distinct|opaque)\\b",
-          "name": "keyword.operator.odin"
+          "name": "keyword.other.odin"
         },
         {
           "match": "\\b(context)\\b",
-          "name": "keyword.operator.odin"
+          "name": "keyword.other.odin"
         },
         {
           "match": "\\b(nil|true|false)\\b",
@@ -110,19 +110,19 @@
         },
         {
           "match": "([#]\\s*\\b([[:alpha:]_]+[[:alnum:]_]*)\\b)",
-          "name": "keyword.tag.odin"
+          "name": "support.function.odin"
         },
         {
           "match": "(\\x40\\s*\\b([[:alpha:]_]+[[:alnum:]_]*)\\b)",
-          "name": "keyword.tag.odin"
+          "name": "support.function.odin"
         },
         {
           "match": "(\\x40\\s*[(]\\s*\\b([[:alpha:]_]+[[:alnum:]_]*)\\b)\\s*[)]",
-          "name": "keyword.tag.odin"
+          "name": "support.function.odin"
         },
         {
-          "match": "@",
-          "name": "keyword.operator.odin"
+          "name": "support.function.odin",
+          "match": "@[(].*[)]"
         }
       ]
     },
@@ -138,7 +138,7 @@
         },
         {
           "match": "\\$\\s*(\\b([[:alpha:]_]+[[:alnum:]_]*)\\b)",
-          "name": "storage.type.odin"
+          "name": "entity.name.type.odin"
         },
         {
           "match": "\\b(i8|i16|i32|i64|i128|int)\\b",
@@ -253,7 +253,7 @@
           "match": "(\\b[[:alpha:]_]+[[:alnum:]_]*\\b)\\s*[!]?\\s*[\\(]",
           "captures": {
             "1": {
-              "name": "support.function.odin"
+              "name": "entity.name.function.odin"
             }
           }
         },
