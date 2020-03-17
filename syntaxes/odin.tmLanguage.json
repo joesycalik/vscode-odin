@@ -149,23 +149,15 @@
           "name": "storage.type.odin"
         },
         {
-          "match": "\\b(f16|f32|f64|f128)\\b",
+          "match": "\\b(f32|f64)\\b",
           "name": "storage.type.odin"
         },
         {
-          "match": "\\b(f16le|f32le|f64le|f128le)\\b",
+          "match": "\\b(complex64|complex128)\\b",
           "name": "storage.type.odin"
         },
         {
-          "match": "\\b(f16be|f32be|f64be|f128be)\\b",
-          "name": "storage.type.odin"
-        },
-        {
-          "match": "\\b(complex32|complex64|complex128)\\b",
-          "name": "storage.type.odin"
-        },
-        {
-          "match": "\\b(quaternion64|quaternion128|quaternion256)\\b",
+          "match": "\\b(quaternion128|quaternion256)\\b",
           "name": "storage.type.odin"
         },
         {
