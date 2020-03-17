@@ -15,7 +15,3 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Auto indentation
 - Folding (by markers)
 
-- Initial hacky implementation of syntax highlighting for user defined types
-    - Currently uses a single hardcoded color
-    - Likely restricted to the currently active file
-    - Likely quite slow/unlikely to scale well

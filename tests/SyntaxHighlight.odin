@@ -15,15 +15,6 @@ main :: proc() { // Comments // Nest
 			a : quaternion128; b : quaternion256; X :: cstring("\\ Test  \n");
 			c : i8; d : i16; e : i32; f : i64; g : i128;
 			h : f32; i : f64; j : bool; l : map[string]int;
-			m : b8; n : b16; o : b32; p : b64;
-			q : complex64; r : complex128; s : rune; 
-			t : byte; u : u16le; v:u32le; w:u64le; x:u128le; 
-			y:i16le; z:i32le; a1:i64le; a2:i128le;
-			a3:i16be; a4:i32be; a5:i64be; a6:i128be;
-			a7:u16be; a8:u32be; a9:u64be; a0:u128be;
-			b0: any; b1:typeid; b2:rawptr; b3:int;
-		}
-		{
 			single_tick_string := '&'; back_tick_string := `Test`;
 			constant_val_spread : int : 12; Foo :: enum {A, B, C};
 
