@@ -122,7 +122,7 @@
         },
         {
           "name": "support.function.odin",
-          "match": "@[(].*[)]"
+          "match": "@[(].*="
         }
       ]
     },

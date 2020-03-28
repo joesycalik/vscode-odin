@@ -101,5 +101,11 @@ main :: proc() { // Comments // Nest
 				case:
 			}
 		}
+		{
+			@(default_calling_convention = "c")
+			foreign comdlg32 {
+				@(link_name="GetOpenFileNameA") get_open_file_name_a :: proc(arg1: ^Open_File_Name_A) -> Bool ---
+			}
+		}
 	}
 }
