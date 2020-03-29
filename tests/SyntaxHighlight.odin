@@ -109,3 +109,10 @@ main :: proc() { // Comments // Nest
 		}
 	}
 }
+
+main_window_callback : win32.Wnd_Proc : proc "c" (window : win32.Hwnd,
+    message : u32, 
+    wparam : win32.Wparam, 
+    lparam : win32.Lparam) -> win32.Lresult {
+
+}
